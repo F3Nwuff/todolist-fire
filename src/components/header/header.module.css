@@ -1,0 +1,116 @@
+.header {
+    background: #8B4513;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    position: relative;
+  }
+  
+  .addTask {
+    position: absolute;
+    height: 54px;
+    bottom: -27px;
+    width: 100%;
+    max-width: 736px;
+    display: flex;
+    gap: 8px;
+    padding: 0 1rem;
+  }
+  
+  .addTask input {
+    height: 100%;
+    flex: 1;
+    color: #530000;
+    background: #F1F3F2;
+    border: 1px solid #380000;
+    border-radius: 30px;
+    padding: 0 16px;
+    font-size: 16px;
+  }
+  
+  .addTask input::placeholder {
+    color: #a6a6a6;
+  }
+  
+  .addTask button {
+    height: 50%;
+    padding: 0 12px;
+    background: #954535;
+    color: #f1f3f2;
+    border: 0.5px #D27D2D;
+    border-radius: 90px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    gap: 6px;
+    font-weight: 1000;
+    font-size: 20px;
+  }
+  h2{
+  font-size: 27px;
+  padding: 20px;
+  gap: 5px;
+  color: #f1f3f2;
+  }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: #191919;
+    padding: 20px;
+    border-radius: 8px;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+    max-width: 300px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    line-height: 1.5;
+  }
+  
+  h1 {
+    margin-bottom: 20px; 
+  }
+  
+  p {
+    margin-bottom: 10px; 
+  }
+
+.footer{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  height: 100px;
+  position: relative;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  text-align: center;
+  }
+  .h2{
+    font-size: 27px;
+    padding: 5px;
+    gap: 5px;
+    color: #f1f3f2;
+  }
+  .logoutButton {
+    padding-left: 15px;
+    background: none;
+    border: none;
+    color: #808080;
+  }

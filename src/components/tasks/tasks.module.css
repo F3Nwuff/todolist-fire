@@ -1,0 +1,84 @@
+.tasks {
+    width: 100%;
+    max-width: 736px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 1rem;
+  }
+  .checkContainer svg {
+    width: 100%;
+    height: 100%;
+    color: #191970;
+  }
+.deleteButton {
+  background: none;
+  border: none;
+  color: #808080;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.header > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header p {
+  color: #008080;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.textPurple {
+  color: #000080!important;
+}
+
+.header span {
+  background: #DAA520;
+  color: #00FFFF;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.completedTaskBtn {
+  height: 100%;
+  padding: 0 16px;
+  background: #E69B00;
+  color: #00FFFF;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.currTaskBtn {
+  height: 100%;
+  padding: 0 16px;
+  background: #E69B00;
+  color: #00FFFF;
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
